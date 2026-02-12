@@ -5,7 +5,7 @@
 nav:
   logo: # image
   display_title: true
-  fixed: false # fixed navigation bar
+  fixed: true # fixed navigation bar
 
 # Menu 目錄
 menu:
@@ -925,11 +925,9 @@ css_prefix: true
 # 插入代码到头部 </head> 之前 和 底部 </body> 之前
 inject:
   head:
-    # - <link rel="stylesheet" href="/xxx.css">
     - <link href="https://fonts.geekzu.org/css2?family=Fira+Mono&family=Fira+Sans&family=Noto+Serif+SC&display=swap" rel="stylesheet">
-    - <script src="https://gcore.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js"></script>
-    - <link rel="preload" href="https://gcore.jsdelivr.net/gh/xiao-lin52/cdn-assets/images/cover.webp" as="image">
   bottom:
+    - <script src="https://gcore.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js"></script>
     # - <script src="xxxx"></script>
 
 # CDN
