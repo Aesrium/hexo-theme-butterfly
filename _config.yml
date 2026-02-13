@@ -25,9 +25,8 @@ menu:
     归档: /archives/ || fas fa-archive
     标签: /tags/ || fas fa-tags
     分类: /categories/ || fas fa-folder-open
-    # 随笔: /notes/ || fas fa-pen
-  说说: /essay/ || fas fa-quote-left
-  开往: https://travellings.link || fas fa-subway
+  # 说说: /essay/ || fas fa-quote-left
+  开往: https://www.travellings.cn/typewriter.html || fas fa-subway
 
 # ---------------------------------------
 # Code Blocks Settings (代碼相關)
@@ -97,7 +96,7 @@ category_img: false
 category_per_img: false
 
 # The background image of footer
-footer_img: false
+footer_img: '#5d4a97'
 
 # Website Background
 # Can set it to color, image URL or an array containing colors and/or image URLs
