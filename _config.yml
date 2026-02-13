@@ -268,7 +268,7 @@ footer:
   nav:
   owner:
     enable: true
-    since: 2025
+    since: 2020
   # Copyright of theme and framework
   copyright:
     enable: true
@@ -822,26 +822,26 @@ display_mode: light
 
 # Configuration for beautifying the content of the article
 beautify:
-  enable: false
+  enable: true
   # Specify the field to beautify (site or post)
-  field: post
+  field: site
   # Specify the icon to be used as a prefix for the title, such as '\f0c1'
-  title_prefix_icon:
+  title_prefix_icon: \f0c1
   # Specify the color of the title prefix icon, such as '#F47466'
-  title_prefix_icon_color:
+  title_prefix_icon_color: '#F47466'
 
 # Global font settings
 # Don't modify the following settings unless you know how they work
 font:
   global_font_size:
   code_font_size:
-  font_family:
-  code_font_family:
+  font_family: Fira Sans, "Noto Serif SC", -apple-system, BlinkMacSystemFont, "Microsoft YaHei"
+  code_font_family: Fira Mono, consolas, Menlo
 
 # Font settings for the site title and site subtitle
 blog_title_font:
   font_link:
-  font_family:
+  font_family: Fira Sans, "Noto Serif SC", -apple-system, BlinkMacSystemFont, "Microsoft YaHei"
 
 # The setting of divider icon
 hr_icon:
